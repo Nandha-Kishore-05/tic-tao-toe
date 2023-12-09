@@ -1,83 +1,29 @@
-
-.board {
-    display: grid;
-    grid-template-columns: repeat(3, 100px);
-    grid-template-rows: repeat(3, 100px);
-    gap: 10px;
-    justify-content: center;
-    /* padding-top: 10%;
-    /* padding-left: 10%;
-    padding-right: 10%;  */
-  
-  
+body{
+    background-image: url('halloween-pumpkins-scary-spooky-castle-night-full-moon-bats-flying_532187-402.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
   
-  .cell{
-    width: 100px;
-    height: 100px;
-    border: 3px solid red;
-    display: flex;
+h1{
+    color: greenyellow;
+    text-align: center;
     justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    cursor: pointer;
-    text-decoration-color: white;
+    padding-top: 12%;
+    font-size: 90px;
+    text-decoration:solid black;
+    text-shadow: 2px 2px 4px blue;   
+}
+.delayed-button1{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: orange;
     color: white;
-     /* -webkit-box-shadow:0px 0px 105px 45px rgba(45,255,196,0.9);
--moz-box-shadow: 0px 0px 105px 45px rgba(45,255,196,0.9);
-box-shadow: 0px 0px 105px 45px rgba(45,255,196,0.9); */
-  }
-    body{
-      background-color: black ;
-      
-      
-
-
-
-}
-     h1{
-  color: rgb(6, 6, 71);
-  text-shadow: 2px 2px 4px white;
-  text-align: center;
-  padding: 1px;
-  font-size: 60px;
-     }
-     h3{
-      color: blue;
-  text-align: center;
-  font-size: 35px;
-      padding-top: 3%;
-     }
-     .container2 {
-      justify-content: center;
-      align-content: center;
-      width: 50%;
-      height: 50000000%;
-      border-radius: 5px;
-      padding-top: 50px;
-      padding-bottom: 30px;
-      -webkit-box-shadow:0px 0px 100px 4 px rgba(45,255,196,0.9);
--moz-box-shadow: 0px 0px 100px 4px rgba(45,255,196,0.9);
-box-shadow: 0px 0px 100px 4px rgba(45,255,196,0.9);
-  }
-  button{
-    border-radius: 40px;
-    padding: 2%;
-    width:20%;
     font-size: x-large;
-    color: blue;
-    background-color:greenyellow;
-    border: none;
-    outline: none; 
+    border: 3px;
   }
- .cell:hover{
-  cursor: pointer;
-  background-color: rgb(6, 6, 71);
- }
-   button:hover{
-    background-color: yellow;
-    color: red;
-   }
-    
-  
-  
+  body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+  }

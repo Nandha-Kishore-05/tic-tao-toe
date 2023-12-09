@@ -44,7 +44,7 @@ body{
     animation-delay: 9s;
   }
   .text-animation span:nth-child(11) {
-    animation-delay: 11s;
+    animation-delay: 10s;
   }
    @keyframes fadeInText {
     0% {
@@ -63,6 +63,7 @@ body{
     background-color: orange;
     color: white;
     font-size: x-large;
+    border: 3px;
   }
   
   @keyframes showButton {
