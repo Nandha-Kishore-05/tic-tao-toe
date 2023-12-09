@@ -1,0 +1,74 @@
+body{
+    background-image: url('cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsX29mZmljZV8zNl9oYWxsb3dlZW5fdGhlbWVfcGFya18zZThkOTMzNC1kNDE3LTQ4ZjQtOWUxYS1lMzMxMzYyMWU1MjlfMS5qcGc.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.text-animation{
+    color:white;
+    text-align: center;
+    justify-content: center;
+    padding-top: 15%;
+    font-size: 100px;
+    text-shadow:2px 2px white;
+}
+.text-animation span {
+    opacity: 0;
+    animation: fadeInText 1s linear forwards;
+  }
+  
+  .text-animation span:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .text-animation span:nth-child(2) {
+    animation-delay: 1s; 
+  }
+  
+  .text-animation span:nth-child(3) {
+    animation-delay: 2s; 
+  }
+  .text-animation span:nth-child(4) {
+    animation-delay: 3s; 
+  }.text-animation span:nth-child(5) {
+    animation-delay: 4s;
+  }.text-animation span:nth-child(6) {
+    animation-delay: 5s; 
+  }.text-animation span:nth-child(7) {
+    animation-delay: 6s; 
+  }.text-animation span:nth-child(8) {
+    animation-delay: 7s; 
+  }.text-animation span:nth-child(9) {
+    animation-delay: 8s; 
+  }.text-animation span:nth-child(10) {
+    animation-delay: 9s;
+  }
+  .text-animation span:nth-child(11) {
+    animation-delay: 11s;
+  }
+   @keyframes fadeInText {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .delayed-button {
+    opacity: 0;
+    animation: showButton 0.5s linear forwards;
+    animation-delay: 15s; 
+    padding: 10px;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    font-size: x-large;
+  }
+  
+  @keyframes showButton {
+    100% {
+      opacity: 1;
+    }
+  }
+
+  
